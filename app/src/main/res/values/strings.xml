@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CountryMvvm</string>
+    <string name="error_occurrd_text">error occurred</string>
+</resources>
