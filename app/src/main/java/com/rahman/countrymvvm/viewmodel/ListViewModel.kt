@@ -2,8 +2,9 @@ package com.rahman.countrymvvm.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.rahman.countrymvvm.Model.Country
 
-class listViewModel : ViewModel() {
+class ListViewModel : ViewModel() {
 
     val countriesMutable = MutableLiveData<List<Country>>()
     val countryLoadError = MutableLiveData<Boolean>()
